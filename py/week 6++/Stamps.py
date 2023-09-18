@@ -1,7 +1,7 @@
 """Stamps"""
 import math
 def main(time, pro, stamp_b, stamp_c, discount):
-    """Stamps"""
+    """Stampss"""
     stamp = 0
     result = 0
     for _ in range(time):
