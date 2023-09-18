@@ -7,7 +7,7 @@ def kkk(num_1, num_2):
     return num_2
 
 def main():
-    """[Midterm 2021] ฉันจะเป็น Saitama ให้ได้เลย"""
+    """[Midterm 2021]  ฉันจะเป็น Saitama ให้ได้เลย"""
     push = int(input())
     sit = int(input())
     squ = int(input())
