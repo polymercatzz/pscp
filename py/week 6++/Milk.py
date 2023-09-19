@@ -1,10 +1,6 @@
 """[Recommend] Milk"""
-def main():
+def main(price, faa, free, money):
     """[Recommend] Milk"""
-    price = int(input())
-    faa = int(input())
-    free = int(input())
-    money = int(input())
     bottle = money//price
     result = bottle
     if bottle >= faa and faa != 0:
@@ -13,4 +9,4 @@ def main():
             result += pro_free*free
             bottle = bottle-pro_free*faa+pro_free*free
     print(result)
-main()
+main(int(input()), int(input()), int(input()), int(input()))
