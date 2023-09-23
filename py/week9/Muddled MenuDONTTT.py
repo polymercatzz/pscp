@@ -16,7 +16,7 @@ def main():
         elif "Can't do:" in word:
             dont += word.split("Can't do: ")
         elif "#N" not in word:
-            menu.insert(int(word[word.find("#")+1])-1, word)
+            menu.insert(int(word[word.find("#")+1:])-1, word)
         else:
             menu.append(word)
     for i in menu:
