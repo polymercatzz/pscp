@@ -1,6 +1,6 @@
-"""isPrime_large"""
+"""isPrime (LARGER)"""
 def prime():
-    """isPrime_large"""
+    """isPrime (LARGER)"""
     num = int(input())
     result = "False"
     if num <= 1:
