@@ -6,6 +6,7 @@ def main(word):
         if i not in result:
             if word.count(i)%2 == 1:
                 result += i
+            print(i)
     if result == "":
         print("fully paired")
     else:
