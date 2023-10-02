@@ -3,7 +3,7 @@ def main(money, people):
     """Distribute"""
     money = money-people
     eight_can = money//7
-    can_give = min(eight_can, people-1)
+    can_give = min(eight_can, max(people-1, 0))
     people = people-can_give
     money -= (can_give*7)
     if people == 1 and money == 3:
