@@ -10,10 +10,8 @@ def main():
     num_f = int(input())
     num_g = int(input())
     price = 0
-    if num_f > num_g:
-        num_f, num_g = num_g, num_f
     sta = abs(num_g-num_f)
-    if num_g <= num_n:
+    if num_g <= num_n and num_f <= num_n:
         price += num_b
         sta -= num_a
         if sta >= num_c:
