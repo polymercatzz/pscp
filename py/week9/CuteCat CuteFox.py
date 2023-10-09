@@ -20,7 +20,7 @@ def main(num):
         result.setdefault("Cat01", "Garfield")
     if fox_check:
         result.setdefault("Fox01", "Fubuki")
-    result = dict(sorted(list(result.items())))
+    result = dict(sorted(list(result.items()), key=lambda x: (ord(x[0][0]), int(x[0][3:]))))
     for i in result.keys():
         if "Fox" in i:
             fox += 1
