@@ -5,7 +5,7 @@ def main(numm, numn):
     for _ in range(numm*numn):
         num.append(int(input()))
     for i in range(1, numm*numn+1):
-        print(num[i-1], "", end="")
+        print(num[i-1], end=" ")
         if i%numn == 0:
             print()
 main(int(input()), int(input()))
