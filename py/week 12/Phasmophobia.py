@@ -11,7 +11,7 @@ def main(word1, word2, word3):
     result = ["Banshee", "Demon", "Jinn", "Oni", "Phantom", "Revenant", "Shade", "Mare", \
             "Poltergeist", "Wraith", "Yurei", "Spirit"]
     result = set(ghost.get(word1, result)) & set(ghost.get(word2, result)) & \
-    set(ghost.get(word3, result))
+            set(ghost.get(word3, result))
     if result == set():
         result.add("Not yet discovered")
     result = sorted(list(result))
